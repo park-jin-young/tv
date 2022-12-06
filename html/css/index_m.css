@@ -1,0 +1,255 @@
+.at0 .sub {
+    display: none;
+}
+.at0>.mob_sub_title {
+    display: block;
+}
+
+.at0_big_title,
+.at0_small_title {
+    display: none;
+}
+.at0_small_title0 {
+    height: 50px; 
+    line-height: 50px;
+    font-size: 1.5rem;
+}
+/* at0 그림 4개 */
+.img4 {
+    margin: 10px auto;
+}
+.img4 li:nth-child(3),
+.img4 li:nth-child(4) {
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+        justify-content: center;
+}
+
+/* ---------------------------- */
+
+/* at1 문장과 큰 그림  */
+.at1 div {
+    width: 96%;
+}
+
+/* at1 문장 높이 40으로 변경  */
+.at1 .texts p {
+    height: 40px;
+    line-height: 40px;
+    width: 90%
+}
+
+/* at1 첫 문장 마진탑  변경  */
+.at1 div:first-child p:nth-child(1) {
+    margin-top: 40px;
+}
+
+/* at1 문장 중 .none 삭제  */
+.at1 div .none {
+    display: none;
+}
+
+/* at1 큰 그림 배경 회색에서 흰색으로 변경  */
+.at1 div:last-child {
+    background: white;
+}
+
+.at1 div:last-child div {
+    width: 98%;
+    height: 90%;
+    margin: 2% auto;
+    border: px solid black;
+}
+
+
+/* 아티클-2 시작 */
+.at2_tab {
+    width: 98%;
+    height: 50px;
+    margin: 10px auto;
+    border: 0px solid black;
+    display: flex;
+}
+
+/* at2 그림4개와 자막 3줄 변경하기 */
+/* at2 그림4개와 자막 3줄 감싸는 .at2_img6 98%로 변경하기 */
+.at2 .at2_img6 {
+    width: 98%;
+}
+
+/* 그림4개 박스 속에 하나 씩의 작은박스(그림(li) 제목(li), 설명(li-div-p)) */
+.at2 .at2_img6 ul {
+    width: 98%;
+    height: 300px;
+    border: 0px solid green;
+    margin-bottom: 30px;
+}
+
+.at2 .at2_img6 ul li:nth-child(2) {
+    height: 50px;
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 70px;
+    font-weight: bold;
+}
+.at3 div {
+    display: none;
+}
+
+/* ================== */
+.at5>.at5_nav {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.at5>.at5_nav div { display: none; }
+.at5>.at5_nav div:nth-child(1) {
+    display: block;
+}
+.at5>.at5_at>div {
+    width: 100%;
+}
+.at5> .at5_at> .at5_at_last {
+    display: none;
+}
+.at5>.at5_nav div:last-child {
+    width: 50%;
+    margin-left: 0%;
+    border: 1px solid black;
+}
+
+
+/* ========================= */
+.at6_wrap {
+    left: 0%;
+    width: 100%;
+}
+
+.at6_menu>li {
+    display: none;
+}
+
+.at6_menu>li:nth-child(1) {
+    display: block;
+    width: 50%;
+    margin-right: 0;
+}
+
+.at6_menu>li:last-child {
+    display: block;
+    width: 50%;
+}
+.at6_msg p {
+    font-size: 1.3rem;
+}
+/* 
+.img6 {
+    width: 100%;
+}
+
+.img6 li {
+    width: 100%;
+} */
+.at6_pos5 img {
+    display: none;
+}
+.at6_pos1 {
+    display: none;
+}
+.at6_pos .at6_pos3 {
+    left: 20%;
+    width: 60%;
+}
+.at6_pos .at6_pos8 {
+    display: none;
+}
+
+.at6_pos .at6_pos7 {
+    width: 60%;
+}
+.at6_pos .at6_pos9 {
+    display: none;
+}
+/* ------------------------ */
+.at7_at>.imgBox>li {
+    width: 45%;
+    height: 400px;
+}
+
+/* 상품 안에 그림이 들어있는 각각의 박스 */
+.at7_at>.imgBox>li>.imgs {
+    height: 250px;
+}
+/* ----------------- */
+
+/* ----------------------------- */
+.at8_menu div {
+    display: none;    
+}
+.at8_menu div:first-child {        
+    display: block;
+}
+.at8_fixed_1 {
+    width: 60px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.at8_fixed_1 li {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1rem;
+}
+
+.at8_fixed_1 li:nth-child(2) {
+    font-size: 0.5rem;
+}
+
+.at8_tab1 {
+    height: 50px;
+    display: block;
+}
+
+.at8_tab1>li {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+    width: 100px;
+}
+
+.at8_tab1>li:first-child {
+    margin-left: 20px;
+}
+
+.at8_title {
+    color: blue;
+}
+
+.at8_choose>li {
+    width: 25%;
+}
+
+.at8_imgText>div {
+    width: 100%;
+
+}
+
+.at8> .at8_press_1, .at8_press_2 {
+    display: none;
+}
+/* ------------------------------- */
+/* 위에서 내려올 메뉴들 */
+.at9>.at9_menu li {
+    width: 50%;
+}
+
+/* 2번째 메뉴 오른쪽 간격을 margin-right: 35px에서 0px */
+.at9>.at9_menu li:nth-child(2) {
+    margin-right: 0%;
+}
+
+.at9>.at9_menu>.at9_icon {
+    display: none;
+}

@@ -1,0 +1,363 @@
+.img4 li {
+    width: 45%;
+    margin-bottom: 50px;
+}
+.img4 li:nth-child(3),
+.img4 li:nth-child(4) {
+    display: none;
+}
+/* at1 문장과 큰 그림  */
+.at1 div {
+    width: 98%;
+}
+/* at1 문장 높이 40으로 변경  */
+.at1 .texts p {
+     height: 30px;
+     line-height: 30px;
+     width: 90%
+}
+/* at1 첫 문장 마진탑  변경  */
+.at1 div:first-child p:nth-child(1) {    
+    margin-top: 40px;
+}
+/* at1 문장 중 .none 삭제  */
+.at1 div .none {
+    /* display: none; */
+}
+/* at1 큰 그림 배경 회색에서 흰색으로 변경  */
+.at1 div.at1_big {
+    background: white;
+}
+
+.at1 div.at1_big div {
+    width: 98%;
+    height: 40%;
+    margin: 3% auto;
+    border: 1px solid black;
+    display: none;
+}
+
+
+/* 아티클-2 시작 */
+.at2_tab {
+    width: 98%;
+    height: 50px;
+    margin: 10px auto;
+    border: 0px solid black;
+    display: flex;
+}
+
+/* at2 그림4개와 자막 3줄 변경하기 */
+/* at2 그림4개와 자막 3줄 감싸는 .at2_img6 98%로 변경하기 */
+.at2 .at2_img6 {
+    width: 98%;
+}
+/* 그림4개 박스 속에 하나 씩의 작은박스(그림(li) 제목(li), 설명(li-div-p)) */
+.at2 .at2_img6 ul {
+    width: 45%;
+    height: 300px;
+    border: 0px solid green;
+    margin-bottom: 30px;
+}
+
+.at2 .at2_img6 ul li:nth-child(2) {
+    height: 50px;
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 70px;
+    font-weight: bold;
+}
+
+.at2 .at2_img6 ul li:nth-child(3) {
+    display: none;
+}
+
+.at3 .at3_text {
+    display: none;
+}
+
+/* ================ */
+.at5>.at5_nav div {
+    display: none;
+}
+
+.at5>.at5_nav div:first-child,
+.at5>.at5_nav div:last-child {
+    display: block;
+}
+
+.at5>.at5_nav div:nth-child(1) {
+    width: 30%;
+}
+
+.at5>.at5_nav div:last-child {
+    width: 30%;
+}
+
+.at5>.textBox {
+    margin-top: 50px;
+}
+
+.at5>.textBox li {
+    transition: all .5s;
+    margin-left: 0%;
+    font-size: 1.2rem;
+}
+
+.at5>.textBox li:nth-child(1) {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+.at5>.at5_at {
+    width: 100%;
+    display: block;    
+    margin-top: -50px;
+}
+
+.at5>.at5_at>div {
+    width: 100%;
+}
+
+.at5>.at5_at>div>p {
+    margin-left: 50px;
+}
+/* ======================== */
+.at6_menu li:nth-child(1) {
+    width: 30%;
+    margin-right: 20%;
+}
+
+.at6_msg p {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.at6_msg p:nth-child(1) {
+    text-align: center;
+    padding-right: 0px;
+}
+
+.at6_pos {
+    height: 800px;
+}
+
+.at6_pos div p {
+    height: 50px;
+    line-height: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.at6_pos div p:first-child {
+    margin-top: 50px;
+}
+
+
+.at6_pos .at6_pos0 {
+    top: 550px;
+    left: 0;
+    width: 100%;
+    height: 200px;
+}
+
+.at6_pos .at6_pos0:hover::after {
+    line-height: 250px;
+}
+
+.at6_pos .at6_pos1 {
+    display: none;
+}
+
+.at6_pos .at6_pos2 {
+    top: 0px;
+    left: 0;
+    width: 50%;
+    height: 250px;
+    /* background: red; */
+}
+
+.at6_pos .at6_pos3 {
+    left: 50%;
+    width: 50%;
+    height: 250px;
+    /* background: blue; */
+}
+
+.at6_pos .at6_pos4 {
+    top: 250px;
+    left: 60%;
+    width: 20%;
+    height: 250px;
+    /* background: orange; */
+}
+
+.at6_pos .at6_pos5 {
+    display: none;
+    /* background: rgb(36, 13, 72); */
+}
+
+.at6_pos .at6_pos6 {
+    top: 250px;
+    width: 70%;
+    height: 300px;
+    background: rgb(243, 242, 245);
+
+}
+
+.at6_pos .at6_pos7 {
+    top: 250px;
+    left: 70%;
+    width: 30%;
+    height: 300px;
+    background: rgb(235, 231, 246);
+}
+
+.at6_pos .at6_pos7 p:first-child {
+    margin-top: 100px;
+}
+
+.at6_pos .at6_pos8 {
+    top: 250px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: rgb(233, 236, 239);
+}
+
+.at6_pos .at6_pos8 p {
+    height: 30px;
+    line-height: 30px;
+}
+
+.at6_pos .at6_pos8 p:first-child {
+    margin-top: 15px;
+    line-height: 40px;
+}
+
+.at6_pos .at6_pos9 {
+    top: 350px;
+    left: 0;
+    width: 30%;
+    height: 200px;
+    /* background: rgb(122, 189, 240); */
+}
+
+
+.img6 {
+    margin-top: 50px;
+}
+
+.img6 li {
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+/* ------------------------------ */
+
+.at7_menu div {
+    display: none;
+}
+
+.at7_menu div:first-child,
+.at7_menu div:last-child {
+    display: block;
+}
+
+.at7_menu div:first-child {
+    width: 50%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.at7_menu div:last-child {
+    width: 50%;
+}
+/* 그림 들어가는 li 박스 */
+.at7_at .imgBox li {
+    position: relative;
+    top: 0; left: 0;
+    width: 30%; height: 300px;
+    margin-right: 50px;
+    overflow: hidden;
+}
+.at7_at> .imgBox> li> .imgsText {
+    position: absolute;
+    top: 90%; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.469);
+    color: white;
+    transition: all 0.5s;
+}
+.at7_at> .imgBox> li:hover> .imgsText {    
+    top: 50%;    
+}
+/* 개개별 상품 박스(li : 그림-상품이름-가격) */
+.at7_at> .imgBox> li div {
+    /* width: 45%; */
+    /* height: 300px; */
+    border: 0px solid red;
+    margin-bottom: 50px;
+}
+/* --------------------------- */
+.at8_fixed_1 {
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 50px;
+    border-radius: 0px;
+    display: flex;
+}
+
+.at8_fixed_1>li {
+    width: 25%;
+}
+
+.at8_fixed_1>li:nth-child(1),
+.at8_fixed_1>li:nth-child(3) {
+    width: 20%
+}
+
+.at8_fixed_1>li:nth-child(2) {
+    width: 2%;
+    height: 50px;
+    line-height: 50px;
+}
+
+.at8_fixed_1>li:last-child {
+    margin-top: 0px;
+    margin-left: 23%;
+}
+
+.at8_tab1 {
+    justify-content: start;
+}
+
+.at8_tab1>li:first-child {
+    margin-left: 10%;
+}
+
+.at8_title {
+    color: red;
+}
+
+.at8_choose {
+    justify-content: center;
+}
+
+.at8_choose>li {
+    width: 15%;
+}
+
+.at8_imgText>div {
+    width: 45%;
+    height: 500px;
+    border: 1px solid #ccc;
+}

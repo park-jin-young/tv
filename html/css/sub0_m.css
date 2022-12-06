@@ -1,0 +1,41 @@
+.at0 {
+    
+}
+.at0 .big_title {
+    height: 100px;
+    line-height: 100px;
+    font-size: 3rem;
+}
+.at0 .small_title {
+    font-size: 2rem;
+}
+.at0 .img4 {
+    width: 98%;
+}
+.at0 .img4 li {
+    width: 48%;
+    height: 500px;
+}
+
+
+.at1 {
+    top: 280%;
+}
+.at1 .big_title {
+    font-size: 3rem;
+}
+
+.at2 {
+    top: 400%;
+}
+.at2 .big_title {
+    font-size: 3rem;
+}
+
+.at2 .at2_pone_box {
+    top: 100px;
+    
+}
+.at2>.at2_pone_box>.at2_pone {
+    left: 15%;
+}
